@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Music-Player</title>
+
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div class="player">
+            <div class="player-head">
+                <div class="songSlider">
+                    <button class="songList">
+                        <img src="assets/list.svg" alt="list-icon">
+                    </button>
+                    <button class="play">
+                        <img src="assets/play.svg" alt="play-button">
+                    </button>
+                    <button class="pause">
+                        <img src="assets/pause.svg" alt="pause-icon">
+                    </button>
+
+                <div class="songSlider-Playlist">
+                    <img src="assets/song-img/song1.jpeg" alt="song1" class="songSlider-Playlist-IMG">
+                    <img src="assets/song-img/song2.jpeg" alt="song2" class="songSlider-Playlist-IMG">
+                    <img src="assets/song-img/song3.jpeg" alt="song3" class="songSlider-Playlist-IMG">
+                    <img src="assets/song-img/song4.jpeg" alt="song4" class="songSlider-Playlist-IMG">
+                    <img src="assets/song-img/song5.jpeg" alt="song5" class="songSlider-Playlist-IMG">
+                    <img src="assets/song-img/song6.jpeg" alt="song6" class="songSlider-Playlist-IMG">
+                </div>
+
+                <div class="user-control">
+                    <button class="play-previous">
+                        <img src="assets/previous.svg" alt="previous-icon">
+                    </button>
+                    <p class="song-details">
+                        <strong class="song-title"></strong>
+                        <span class="song-artist"></span>
+                    </p>
+
+                    <button class="play-next">
+                        <img src="assets/next.svg" alt="next-icon">
+                    </button>
+                    <div class="progres">
+                        <div class="progres__filled"></div>
+                    </div>
+                </div>
+                </div>
+
+               <ul class="song-playlist">
+                <li class="song-details">
+                    <img src="assets/song-img/song1.jpeg" alt="song1">
+                    <p class="player-context">
+                        <b class="song-name">song1</b>
+                        <span class="singer">singer1</span>
+                        <span class="song-time"></span>
+                    </p>
+                    <audio src="assets/song-audio/Pyaar Hai.mp3" class="audio"></audio>
+                </li>
+
+                <li class="song-details">
+                    <img src="assets/song-img/song2.jpeg" alt="song1">
+                    <p class="player-context">
+                        <b class="song-name">song2</b>
+                        <span class="singer">singer2</span>
+                        <span class="song-time"></span>
+                    </p>
+                    <audio src="assets/song-audio/Raanjhan.mp3" class="audio"></audio>
+                </li>
+               </ul>
+            </div>
+        </div>
+    
+        <script src="script.js"></script>
+    </body>
+</html>
